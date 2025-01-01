@@ -1,9 +1,9 @@
-using VT.Data;
+using BT.Data;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
-using VT.Data.Entities;
+using BT.Data.Entities;
 
-namespace VT.Components.Account
+namespace BT.Components.Account
 {
     // Remove the "else if (EmailSender is IdentityNoOpEmailSender)" block from RegisterConfirmation.razor after updating with a real implementation.
     internal sealed class IdentityNoOpEmailSender : IEmailSender<User>

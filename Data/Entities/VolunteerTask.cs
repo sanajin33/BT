@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace VT.Data.Entities;
+namespace BT.Data.Entities;
 public class VolunteerTask
 {
     public int Id { get; set; }

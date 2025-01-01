@@ -1,8 +1,8 @@
-using VT.Data;
+using BT.Data;
 using Microsoft.AspNetCore.Identity;
-using VT.Data.Entities;
+using BT.Data.Entities;
 
-namespace VT.Components.Account
+namespace BT.Components.Account
 {
     internal sealed class IdentityUserAccessor(UserManager<User> userManager, IdentityRedirectManager redirectManager)
     {

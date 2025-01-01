@@ -1,12 +1,12 @@
-using VT.Components;
-using VT.Components.Account;
-using VT.Data;
+using BT.Components;
+using BT.Components.Account;
+using BT.Data;
 using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using VT.Data.Entities;
+using BT.Data.Entities;
 
-namespace VT
+namespace BT
 {
     public class Program
     {

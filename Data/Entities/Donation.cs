@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using Microsoft.CodeAnalysis;
 
-namespace VT.Data.Entities;
+namespace BT.Data.Entities;
 
 public class Donation
 {

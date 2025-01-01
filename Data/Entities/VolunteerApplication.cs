@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace VT.Data.Entities;
+namespace BT.Data.Entities;
 
 public class VolunteerApplication
 {

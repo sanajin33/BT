@@ -1,10 +1,10 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using VT.Data.Entities;
-using TaskStatus = VT.Data.Entities.TaskStatus;
+using BT.Data.Entities;
+using TaskStatus = BT.Data.Entities.TaskStatus;
 
-namespace VT.Data;
+namespace BT.Data;
 
 
 public class AppDbContext(DbContextOptions<AppDbContext> options) : IdentityDbContext<User, IdentityRole<int>, int>(options)
